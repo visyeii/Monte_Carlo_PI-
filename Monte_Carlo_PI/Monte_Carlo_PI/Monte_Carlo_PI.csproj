@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A25E49A7-AF78-4E40-A01D-8B12F87B643A}</ProjectGuid>
+    <ProjectGuid>{26BBD9A1-CA94-4EF9-A28B-C441E367AB7E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Monte_Carlo_PI</RootNamespace>
     <AssemblyName>Monte_Carlo_PI</AssemblyName>
@@ -53,6 +53,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
